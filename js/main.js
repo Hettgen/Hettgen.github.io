@@ -11,7 +11,7 @@ const projects = [{
   }
 ];
 
-const container = document.getElemenyByID("project-container");
+const container = document.getElementByID("project-container");
 
 projects.forEach(project => {
   const card = document.createElement("article");
