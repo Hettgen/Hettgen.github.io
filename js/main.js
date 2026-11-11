@@ -29,7 +29,7 @@ projects.forEach(project => {
     const link = document.createElement("a");
     link.href = project.github;
     link.textContent = "View on GitHub";
-    link.target = "_";
+    link.target = "_blank";
     link.rel = "noopener noreferrer";
     card.append(link);
   }
