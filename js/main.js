@@ -3,7 +3,7 @@ const projects = [{
   description : "A web based tool for testing build damage per second in realm of the mad god",
   technologies : ["Python", "Flask", "Javascript", "HTML", "CSS", "Chart.js"],
   github : "https://github.com/Hettgen/rotmg-dps-calculator",
-  image : "",
+  image : null,
   demo : null
   },
   {
@@ -11,7 +11,7 @@ const projects = [{
     description : "A bot for hosting and managing a book club from within a discord server",
     technologies : ["Javascript", "Node.js", "Discord.js", "MongoDB", "AWS"],
     github : "",
-    image : "",
+    image : null,
     demo : null
   },
 ];
