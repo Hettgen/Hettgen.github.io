@@ -29,7 +29,7 @@ projects.forEach(project => {
     image.src = project.image;
     image.alt = `${project.name} screenshot`;
     image.classList.add("project-image");
-    imagine.loading = "lazy";
+    image.loading = "lazy";
     card.append(image);
   }
 
@@ -58,7 +58,7 @@ projects.forEach(project => {
 
   //add github link
   if(project.github){
-    const github = project.createElement("a");
+    const github = document.createElement("a");
     github.href = project.github;
     github.textContent = "Github";
     github.target = "_blank";
